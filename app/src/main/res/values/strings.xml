@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Trigonometry Table</string>
+    <string name="theta">\u03B8</string>
+    <string name="sinTheta">Sin(\u03B8)</string>
+    <string name="cosTheta">Cos(\u03B8)</string>
+    <string name="tanTheta">Tan(\u03B8)</string>
 </resources>
