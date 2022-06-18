@@ -9,52 +9,61 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="15dp">
+        android:padding="30dp">
 
         <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            android:layout_weight="1"
             android:background="@drawable/value_cell_border">
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/theta" />
 
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="0" />
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="15" />
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="30" />
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="45" />
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="60" />
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="90" />
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="180" />
         </TableRow>
 
@@ -62,11 +71,13 @@
         <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            android:layout_weight="1"
             android:background="@drawable/value_cell_border">
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/sinTheta" />
 
 
@@ -74,53 +85,62 @@
                 android:id="@+id/tvSinZero"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/tvSin15"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="15" />
 
             <TextView
                 android:id="@+id/tvSin30"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="30" />
 
             <TextView
                 android:id="@+id/tvSin45"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="45" />
 
             <TextView
                 android:id="@+id/tvSin60"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="60" />
 
             <TextView
                 android:id="@+id/tvSin90"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="90" />
 
             <TextView
                 android:id="@+id/tvSin180"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="180" />
         </TableRow>
 
         <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            android:layout_weight="1"
             android:background="@drawable/value_cell_border">
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/cosTheta" />
 
 
@@ -128,53 +148,62 @@
                 android:id="@+id/tvCosZero"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/tvCos15"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="15" />
 
             <TextView
                 android:id="@+id/tvCos30"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="30" />
 
             <TextView
                 android:id="@+id/tvCos45"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="45" />
 
             <TextView
                 android:id="@+id/tvCos60"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="60" />
 
             <TextView
                 android:id="@+id/tvCos90"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="90" />
 
             <TextView
                 android:id="@+id/tvCos180"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="180" />
         </TableRow>
 
         <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            android:layout_weight="1"
             android:background="@drawable/value_cell_border">
 
             <TextView
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/tanTheta" />
 
 
@@ -182,45 +211,51 @@
                 android:id="@+id/tvTanZero"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/tvTan15"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="15" />
 
             <TextView
                 android:id="@+id/tvTan30"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="30" />
 
             <TextView
                 android:id="@+id/tvTan45"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="45" />
 
             <TextView
                 android:id="@+id/tvTan60"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="60" />
 
             <TextView
                 android:id="@+id/tvTan90"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="90" />
 
             <TextView
                 android:id="@+id/tvTan180"
                 android:layout_width="45dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="180" />
         </TableRow>
-
 
 
     </TableLayout>
